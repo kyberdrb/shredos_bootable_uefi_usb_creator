@@ -60,4 +60,8 @@ I made this guide for shredos, but this can apply for any other UEFI bootable US
 ## Sources
 
 - https://github.com/PartialVolume/shredos.x86_64
+- https://github.com/PartialVolume/shredos.x86_64/releases
+- https://vi.stackexchange.com/questions/10661/insert-filename-in-external-command
+- https://askubuntu.com/questions/718991/what-do-and-mean-in-vim-commands
+- https://duckduckgo.com/?q=vim+cmdline+file+name&ia=web
 
