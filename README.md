@@ -64,4 +64,7 @@ I made this guide for shredos, but this can apply for any other UEFI bootable US
 - https://vi.stackexchange.com/questions/10661/insert-filename-in-external-command
 - https://askubuntu.com/questions/718991/what-do-and-mean-in-vim-commands
 - https://duckduckgo.com/?q=vim+cmdline+file+name&ia=web
+- https://forums.linuxmint.com/viewtopic.php?p=1891954#p1891954
+- https://duckduckgo.com/?q=bash+set+unset&ia=web
+- https://towardsdev.com/what-does-set-u-mean-in-a-bash-script-52b048271741
 
