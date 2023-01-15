@@ -57,6 +57,10 @@ I made this guide for shredos, but this can apply for any other UEFI bootable US
 2. download latest shredos 
 3. extract the archive onto the usb drive
 
+## Shredos/`nwipe` troubleshooting
+
+When the drive is not listed in the list of disks, press `Ctrl + C` and then enter `nwipe` to start it again. The utility will then list all drives, even the USB connected ones.
+
 ## Sources
 
 - https://github.com/PartialVolume/shredos.x86_64

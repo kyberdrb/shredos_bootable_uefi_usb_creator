@@ -9,7 +9,7 @@ DISK_DEVICE="/dev/${DISK_NAME}"
 
 if [ ! -f "/tmp/shredos_latest.iso" ]
 then
-  latest_shredos_iso_stable_URL=$(curl --silent --location https://github.com/PartialVolume/shredos.x86_64 | grep "\/releases/" | grep img | grep "64\s*bit" | sed 's/.*<a href="//g' | sed 's/">.*//g')
+  latest_shredos_iso_stable_URL=$(curl --silent --location https://github.com/PartialVolume/shredos.x86_64/releases | grep "\.img" | grep href | head --lines=1 | sed 's/.*<a href="//g' | sed 's/">.*//g')
 
   axel --verbose --num-connections=10 \
       "${latest_shredos_iso_stable_URL}" --output="/tmp/shredos_latest.iso"
